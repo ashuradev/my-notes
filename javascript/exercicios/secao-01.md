@@ -16,3 +16,5 @@
     F. symbol
 6. O que é uma função?
 7. Como funciona o this?
+
+***Obs.: Nenhuma dessas questões foram postadas.***
