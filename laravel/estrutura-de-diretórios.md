@@ -1,23 +1,23 @@
 # Estrutura do Laravel
 
-Neste post, iremos falar alguns diretórios e arquivos que o Laravel gerou.
+Neste post, iremos falar a estrutura que o Laravel gerou.
 
-app - Aqui fica a maioria do código fonte do seu aplicativo.
-    Http - Aqui fica tudo relacionado ao HTTP (Controllers, Middleware, Requests, etc)
-    Providers - Aqui fica os seus service providers
-    Exceptions - Aqui fica o seu manipulador de exceptions e as exceptions do app.
-    Console - Aqui fica todos os comandos do Artisan.
+app: Aqui fica a maioria do código fonte do seu aplicativo.
+    - Http - Aqui fica tudo relacionado ao HTTP (Controllers, Middleware, Requests, etc)
+    - Providers - Aqui fica os seus service providers
+    - Exceptions - Aqui fica o seu manipulador de exceptions e as exceptions do app.
+    - Console - Aqui fica todos os comandos do Artisan.
 
-bootstrap - Aqui fica os arquivos que iniciam o framework
+bootstrap: Aqui fica os arquivos que iniciam o framework
 
-config - Aqui fica as configurações do seu aplicativo
+config: Aqui fica as configurações do seu aplicativo
 
-database - Aqui fica as suas migrations, seeds e factories do seu banco de dados
+database: Aqui fica as suas migrations, seeds e factories do seu banco de dados
 
-public - Aqui fica todos os arquivos públicos da sua aplicação, como o index.php que é o ponto de entrada para todas as requisições HTTP e seus assets (css, js, imagens, etc)
+routes: Aqui fica as rotas do seu app (web, api e console)
 
-resources - Aqui fica todas as suas views, idiomas (lang) da sua aplicação e os assets que vão ser compilados (scss, js com >es6, etc)
+public: Aqui fica todos os arquivos públicos da sua aplicação, como o index.php que é o ponto de entrada para todas as requisições HTTP e seus assets (css, js, imagens, etc)
 
-tests - Aqui fica os testes do seu aplicativo (TDD)
+resources: Aqui fica todas as suas views, idiomas da sua aplicação e os assets que vão ser compilados (scss, js, etc)
 
-.env - Aqui fica as configurações do ambiente atual que o Laravel está rodando (env file).
+.env: Aqui fica as configurações do ambiente atual que o app está rodando.
