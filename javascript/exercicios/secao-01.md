@@ -13,8 +13,10 @@
     C. bool
     D. null
     E. float
-    F. symbol
 6. O que é uma função?
 7. Como funciona o this?
+8. O que são o `let` e o `const`?
+9. Como funciona o hoisting?
+10. O que é o sessionStorage e localStorage?
 
-***Obs.: Nenhuma dessas questões foram postadas.***
+**Obs.: Toda essa seção foi postada.**
