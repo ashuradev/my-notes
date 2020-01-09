@@ -13,3 +13,5 @@ const ControlledInput = props =>
     <input type="text" value={props} onChange={props.onChange} />; // Controlled
 
 ```
+
+**Este guia não foi postado.**
