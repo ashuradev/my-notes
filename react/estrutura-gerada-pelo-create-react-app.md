@@ -18,4 +18,4 @@ O create-react-app gera uma estrutura para seus projetos React automaticamente. 
     - .gitignore: Arquivos que vão ser ignorados no Git
     - package.json: O arquivo que fica as configurações do NPM.
 
-Você pode criar um projeto para ir aprendendo React com os tutoriais da página com `npx create-react-app tutoriais-da-tecmastery` **nao postado**
+Você pode criar um projeto para ir aprendendo React com os tutoriais da página com `npx create-react-app tutoriais-da-tecmastery`.
