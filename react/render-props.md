@@ -1,6 +1,6 @@
 # Render props 
 
-Render prop é uma técnica em que compartilhamos códigos entre componentes utilizando uma *prop* que recebe uma *função*.
+Render prop é uma *prop* que *recebe* uma função que *retorna* um elemento React. Componentes utilizam render props para determinar o que renderizar nele. Este pattern é bém útil para compartilhar códigos entre componentes.
 
 Exemplo:
 
@@ -10,8 +10,20 @@ const MeuComponente = ({ render }) => render({
 });
 
 const MeuComponenteUI = () => 
-    <MeuComponente render={({ message }) => <h1>{message}</h1>} />;
+  <MeuComponente render={
+    ({ message }) => <h1>{message}</h1>} />
+  }>;
 
-const App = () => <MeuComponenteUI />;
+const MeuOutroComponente = ({ children }) => children({
+    minhaOutraMensagem: ''
+})
+
+const App = () => (
+  <>
+    <MeuComponenteUI />
+    <MeuOutroComponente>
+        {({ message }) => ()}
+    </MeuOutroComponente>
+  </>
 ```
 **Não postado.**
