@@ -14,4 +14,4 @@ const ControlledInput = props =>
 
 ```
 
-**Este guia não foi postado.**
+**Não postado.**
