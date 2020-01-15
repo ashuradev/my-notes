@@ -13,3 +13,5 @@ const textoUppercase = meuHoc(texto)
 <texto msg="oi" /> // <p>OI</p>
 <textoUppercase msg="oi" /> // <p>OI</p>
 ```
+
+**Não postado.**
