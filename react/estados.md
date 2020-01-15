@@ -19,7 +19,7 @@ class Counter extends Component
     // você só precisa passar o estado que deseja alterar no this.setState
     this.setState({ counter }); 
   }
-  
+
   // Método decrement
   // Decrementa o contador
   decrement = () => this.setState()
