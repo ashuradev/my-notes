@@ -1,0 +1,3 @@
+O PHP morreu?
+
+Não, o PHP ainda vai durar por muitos anos, pois ainda vários sites na internet estão sendo/foram desenvolvidos com PHP (Wikipedia, Loja Virtuais, Blogs, etc), várias empresas ainda utilizam esta linguagem (como FB, Slack, Automaticc), a curva de aprendizagem do PHP é relativamente baixa, diversas inovações ainda estão para chegar/chegaram (como o JIT do PHP 8, typed properties, arrow functions), há várias ferramentas populares criados nesta linguagem com uma base de código grande (Mautic, Magento, Laravel, Drupal, Joomla, WordPress, OpenCart, WooCoomerce, etc), o desenvolvimento do núcleo do PHP é ainda ativo, a comunidade está cada vez crescendo e dentre muitos motivos.
