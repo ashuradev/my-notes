@@ -5,6 +5,7 @@ Os componentes possui seus próprios estados e propriedades (props) e então ret
 Eles podem ser escritos na forma de functional components (com funções) e class components (com classes).
 Exemplo da página da TecMastery no Instagram web (instagram.com/tecmastery) estruturado em componentes:
 
+```jsx
 <Cabecalho>
     <Logo />
     <Busca />
@@ -23,3 +24,4 @@ Exemplo da página da TecMastery no Instagram web (instagram.com/tecmastery) est
     <Post />
     <Post />
 </Feed>
+```
