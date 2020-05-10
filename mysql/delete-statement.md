@@ -39,7 +39,7 @@ Com isso irá deletar as últimas 5 linhas. Exemplo de como o comando funciona:
 Tabela:
 
 | id |
-------
+|----|
 | 1  |
 | 2  |
 | 3  |
@@ -59,7 +59,7 @@ Tabela:
 1. Ordene as linhas pelo id de forma decrescente:
 
 | id |
-------
+|----|
 | 15 |
 | 14 |
 | 13 |
@@ -79,7 +79,7 @@ Tabela:
 2. Limita 5 linhas.
 
 | id |
-------
+|----|
 | 15 |
 | 14 |
 | 13 |
@@ -91,7 +91,7 @@ Tabela:
 Tabela:
 
 | id |
-------
+|----|
 | 1  |
 | 2  |
 | 3  |
