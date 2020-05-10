@@ -11,13 +11,13 @@ WHERE name LIKE '%s'
 ORDER BY <critea>
 ```
 
-# Critério como uma coluna
+## Critério como uma coluna
 
 Você pode especificar o critério como uma coluna. Assim o `ORDER BY` irá ordenar os resultados a partir desta coluna.
 
 O `ORDER BY` irá ordenar do menor para o maior, para mudar isto adicione a palavra-chave `DESC` que irá ordenar do maior para o menor.
 
-# Especificando mais de uma coluna
+## Especificando mais de uma coluna
 
 Você pode especificar mais de uma coluna no `ORDER BY`, assim se um empate ocorrer com base na primeira coluna, este empate será quebrado com a segunda coluna sendo ordenada no grupo empatado.
 
