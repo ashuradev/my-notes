@@ -30,6 +30,7 @@ ORDER BY salary, name;
 ```
 
 | salary | name  |
+|--------|-------|
 | 400    | Teste |
 | 500    | Alpha |
 | 500    | Teste |
@@ -47,6 +48,7 @@ ORDER BY salary DESC, name ASC;
 ```
 
 | salary | name  |
+|--------|-------|
 | 500    | Alpha |
 | 500    | Teste |
 | 400    | Teste |
@@ -58,6 +60,7 @@ ORDER BY salary DESC, name DESC;
 ```
 
 | salary | name  |
+|--------|-------|
 | 500    | Teste |
 | 500    | Alpha |
 | 400    | Teste |
@@ -71,6 +74,7 @@ ORDER BY salary DESC, BINARY name DESC;
 ```
 
 | salary | name  |
+|--------|-------|
 | 500    | alpha |
 | 500    | alpha | 
 | 500    | Teste | 
