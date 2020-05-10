@@ -1,3 +1,5 @@
+396
+
 # Limit
 
 Para limitar os resultados de uma consulta `SELECT` utilize a cláusula `LIMIT`.
