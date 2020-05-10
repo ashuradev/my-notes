@@ -80,6 +80,5 @@ ORDER BY salary DESC, BINARY name ASC;
 | 500    | Teste |
 | 500    | alpha | 
 | 500    | alpha |
-|        |       | 
 | 400    | Teste |
 | 400    | alpha |
