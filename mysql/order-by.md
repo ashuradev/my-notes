@@ -65,20 +65,21 @@ ORDER BY salary DESC, name DESC;
 | 500    | Alpha |
 | 400    | Teste |
 
-Por padrão, o MySQL ignora letras maiusculas e minusculas, ou seja, as palavras 'php' e 'pHp' são tratadas igualmente, para desativar isto utilize a palavra-chave `BINARY`, para utilizar uma comparação ASCII e tratar estas palavras diferentemente.
+Por padrão, o MySQL ignora letras maiusculas e minusculas, ou seja, as palavras 'php' e 'pHp' são tratadas igualmente, para desativar isto utilize a palavra-chave `BINARY`, para utilizar uma comparação ASCII e tratar estas palavras diferentemente. Com o `BINARY` as letras minusculas vem por último.
 
 ```sql
 SELECT salary, name
 FROM users
-ORDER BY salary DESC, BINARY name DESC;
+ORDER BY salary DESC, BINARY name ASC;
 ```
 
 | salary | name  |
 |--------|-------|
-| 500    | alpha |
-| 500    | alpha | 
-| 500    | Teste | 
 | 500    | Alpha | 
 | 500    | Alpha |
-| 400    | alpha |
+| 500    | Teste |
+| 500    | alpha | 
+| 500    | alpha |
+|        |       | 
 | 400    | Teste |
+| 400    | alpha |
