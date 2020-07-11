@@ -1,5 +1,7 @@
 # Group by
 
+- É utilizado para separar as linhas de uma tabela com os mesmos valores de um ou mais campos em grupos.
+
 - É utilizado parar separar as linhas de uma tabela em grupos, e então podemos agregar/obter dados para cada grupo. Apenas uma linha *única* que representa todo o grupo é retornada,.
 
 - A cláusula `GROUP BY` é utilizada para formar grupos de registros que contém os mesmos valores das colunas especificadas na cláusula, em outras palavras, ele é utilizado para dividir as linhas de sua tabela em grupos que contém semelhança entre as colunas especificas na cláusula. Ele é utilizado comumente para obter resultados resumidos de uma tabela, por exemplo, contar quantas vendas há em um determinado país em uma tabela `vendas`. 
