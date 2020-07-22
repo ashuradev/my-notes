@@ -1,6 +1,6 @@
 # Cardinalidade
 
-Cardinalidade é o número de ocorrências de uma entidade que pode está associada a uma ocorrência de outra entidade (ex.: **1 usuário** está associado com **n ocorrências de Post**).
+Cardinalidade é o número de ocorrências que está associada a uma ocorrência.
 
 Cardinalidade máxima: É o número máximo de ocorrências de uma entidade que é associada a uma entidade.
 
