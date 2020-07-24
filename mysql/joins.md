@@ -1,6 +1,6 @@
 # Joins
 
-Os joins nos permitem combinar linhas de duas ou mais tabelas utilizando colunas em comum destas tabelas ou não (no caso dos cross joins).
+Os joins nos permitem unir linhas de duas ou mais tabelas utilizando colunas em comum destas tabelas ou não (no caso dos cross joins). Em outras palavras, ele nos permite **juntar** as linhas de uma tabela A com linhas de uma tabela B com base numa condição.
 
 ## Tipos de joins
 
@@ -71,4 +71,3 @@ Um self join acontece quando há um join entre uma tabela e ela mesma.
 # Conclusão
 
 Os joins nos permitem obter informações de uma linha de uma tabela B relacionada com uma linha de uma tabela A.
-
