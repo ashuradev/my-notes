@@ -44,4 +44,4 @@ Usuário `INNER JOIN` Post *QUANDO* Usuário.id = Post.author_id (nome, email, i
 
 # Conclusão
 
-Os joins nos permitem obter informações de uma linha de uma tabela B relacionada com uma linha de uma tabela B.
+Os joins nos permitem obter informações de uma linha de uma tabela B relacionada com uma linha de uma tabela A.
