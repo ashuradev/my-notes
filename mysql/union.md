@@ -144,7 +144,7 @@ UNION
 |Pinguim|Santos|animals|
 |Ana|Julia|animals|
 
-**Obs.:** Há linhas com o `first_name` e `last_name` duplicados que vieram no `UNION` mesmo assim, mas no entanto lembre-se que o `UNION` remove apenas linhas com **todos** os valores das colunas duplicados, e neste caso há linhas com os mesmos `first_name` e `last_name` mas com os valores de `tabela` diferentes.
+**Obs.:** Há linhas com o `first_name` e `last_name` duplicados que vieram no `UNION` mesmo assim, mas no entanto lembre-se que o `UNION` remove apenas linhas com **todos os valores** das colunas duplicados, e neste caso há linhas com os mesmos `first_name` e `last_name` mas com os valores de `tabela` diferentes.
 
 ## Order by
 
