@@ -1,6 +1,6 @@
 # Joins
 
-Os joins nos permitem unir linhas de duas ou mais tabelas utilizando colunas em comum destas tabelas ou não (no caso dos cross joins). Em outras palavras, ele nos permite **juntar** as linhas de uma tabela A com linhas de uma tabela B com base numa condição.
+Os joins nos permitem unir linhas de duas ou mais tabelas utilizando colunas em comum destas tabelas ou não (no caso dos cross joins). Em outras palavras, ele nos permite **juntar** as linhas de uma tabela A relacionadas as com linhas de uma tabela B.
 
 ## Tipos de joins
 
