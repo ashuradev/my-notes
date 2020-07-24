@@ -64,6 +64,10 @@ Nesta query:
 - A **junção** das linhas das tabelas pessoas e cursos começará **à direita** utilizando uma **coluna em comum** que é o *id do curso*.
 - As linhas da direita que não houver correspondência nas linhas da esquerda **serão incluídas**, ou seja, os cursos que não são preferidos **serão** incluídos mesmo assim.
 
+### Self join
+
+Um self join acontece quando há um join entre uma tabela e ela mesma.
+
 # Conclusão
 
 Os joins nos permitem obter informações de uma linha de uma tabela B relacionada com uma linha de uma tabela A.
