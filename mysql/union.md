@@ -124,7 +124,7 @@ UNION
 
 ## Diferenciando linhas
 
-Para ajudar você a diferenciar linhas, você pode selecionar um valor constantes nos dois `SELECT` que irão se referir respectivamente aos nomes das tabelas dos dois `SELECT` e então colocar um nome nestes valores (obs.: você pode também utilizar outros valores e nomes):
+Para ajudar você a diferenciar linhas, você pode selecionar um valor constante nos dois `SELECT` que irão se referir respectivamente aos nomes das tabelas dos dois `SELECT` e então colocar um nome nestes valores (obs.: você pode também utilizar outros valores e nomes):
 
 ```sql
 (SELECT first_name, last_name, 'users' AS 'tabela' FROM users)
