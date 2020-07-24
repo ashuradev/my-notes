@@ -18,14 +18,14 @@ Dados do exemplo:
 ```sql
 CREATE TEMPORARY TABLE users (
 	first_name VARCHAR(200),
-    last_name VARCHAR(200),
-    id INT PRIMARY KEY AUTO_INCREMENT
+	last_name VARCHAR(200),
+	id INT PRIMARY KEY AUTO_INCREMENT
 );
 
 CREATE TEMPORARY TABLE animals (
 	first_name VARCHAR(200),
-    last_name VARCHAR(200),
-    id INT PRIMARY KEY AUTO_INCREMENT
+	last_name VARCHAR(200),
+	id INT PRIMARY KEY AUTO_INCREMENT
 );
 
 ALTER TABLE users
@@ -37,19 +37,20 @@ MODIFY COLUMN id INT AUTO_INCREMENT FIRST;
 INSERT INTO users 
 VALUES
 	(DEFAULT, 'Lucas', 'Silva'),
-    (DEFAULT, 'Lucas', 'Silva'),
-    (DEFAULT, 'Ashura', 'Yukizuki'),
-    (DEFAULT, 'Lisa', 'Santos'),
-    (DEFAULT, 'Robert', 'Downey');
+	(DEFAULT, 'Lucas', 'Silva'),
+	(DEFAULT, 'Ashura', 'Yukizuki'),
+	(DEFAULT, 'Lisa', 'Santos'),
+	(DEFAULT, 'Robert', 'Downey');
     
 SELECT * FROM users;
     
-INSERT INTO animals VALUES
-	 (DEFAULT, 'Mario', 'Jr'),
-     (DEFAULT, 'Lisa', 'Santos'),
-     (DEFAULT, 'Robert', 'Downey'),
-     (DEFAULT, 'Pinguim', 'Santos'),
-     (DEFAULT, 'Ana', 'Julia');
+INSERT INTO animals 
+VALUES
+	(DEFAULT, 'Mario', 'Jr'),
+	(DEFAULT, 'Lisa', 'Santos'),
+	(DEFAULT, 'Robert', 'Downey'),
+	(DEFAULT, 'Pinguim', 'Santos'),
+	(DEFAULT, 'Ana', 'Julia');
 
 SELECT * FROM animals;
 ```
