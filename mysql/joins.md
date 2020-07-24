@@ -8,6 +8,16 @@ Os joins nos permitem unir linhas de duas ou mais tabelas utilizando colunas em 
 
 O cross join obtém uma linha da tabela A e combina com todas as linhas da tabela B e assim sucessivamente.
 
+```sql
+SELECT pessoas.nome AS 'Nome da pessoa', cursos.nome AS 'Nome do curso'
+FROM pessoas
+CROSS JOIN cursos;
+```
+
+Nesta query:
+
+- Cada linha da tabela pessoas é combinada com as linhas da tabela cursos.
+
 ### Inner join
 
 O inner join combina uma linha da tabela A com uma linha da tabela B se estas linhas satisfazerem uma condição chamada **join predicate**. Em outras palavras, ele relaciona uma linha da tabela A com uma linha da tabela B com base numa coluna em comum.
@@ -17,7 +27,7 @@ O inner join combina uma linha da tabela A com uma linha da tabela B se estas li
 O left join, ou left outer join, nos permite selecionar as linhas que satisfazem o **join predicate** e também **todas** as linhas da tabela **a esquerda**. Ou seja, as linhas da tabela **a esquerda** são sempre incluídas mesmo que não há uma correspondência a tabela a direita.
 
 ```sql
-SELECT pessoas.nome as 'Nome da pessoa', cursos.nome AS 'Nome do curso'
+SELECT pessoas.nome as 'Nome da pessoa', cursos.nome AS 'Nome do curso preferido'
 FROM pessoas
 LEFT JOIN cursos ON pessoas.cursopreferido_id = cursos.id_do_curso;
 ```
