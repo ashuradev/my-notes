@@ -10,6 +10,7 @@ O cross join obtém uma linha da tabela A e combina com todas as linhas da tabel
 
 Exemplo:
 
+```
 Tabela Usuário - (nome, email, id)  
 	- ('Lucas', 'aa@aa.com', 1)  
 	- ('Lisa', 'bb@bb.com', 2)  
@@ -18,11 +19,12 @@ Tabela Post - (titulo, author_id):
 	- ('Os Joins no MySQL', 1)  
 	- ('Os posts', 2)  
 
-Usuário `CROSS JOIN` Post (nome, email, id, titulo, author_id):  
+Usuário CROSS JOIN Post (nome, email, id, titulo, author_id):  
 	- ('Lucas', 'aa@aa.com', 1, 'Os Joins no MySQL', 1)  
 	- ('Lucas', 'aa@aa.com', 1, 'Os posts', 2)  
 	- ('Lisa, 'bb@bb.com', 2, 'Os Joins no MySQL', 1)  
-	- ('Lisa, 'bb@bb.com', 2, 'Os posts', 2)  
+	- ('Lisa, 'bb@bb.com', 2, 'Os posts', 2)  	
+```
 
 ### Inner join
 
@@ -30,6 +32,7 @@ O inner join combina uma linha da tabela A com uma linha da tabela B se estas li
 
 Exemplo:
 
+```
 Tabela Usuário - (nome, email, id)  
 	- ('Lucas', 'aa@aa.com', 1)  
 	- ('Lisa', 'bb@bb.com', 2)  
@@ -38,10 +41,11 @@ Tabela Post - (titulo, author_id):
 	- ('Os Joins no MySQL', 1)  
 	- ('Os posts', 2)  
 
-Usuário `INNER JOIN` Post *QUANDO* Usuário.id = Post.author_id (nome, email, id, titulo, author_id):  
+Usuário INNER JOIN Post QUANDO Usuário.id = Post.author_id (nome, email, id, titulo, author_id):  
 	- ('Lucas', 'aa@aa.com', 1, 'Os joins no MySQL', 1)  
 	- ('Lisa', 'bb@bb.com', 2, 'Os posts', 2)  
+```
 
 # Conclusão
 
-Os joins nos permitem obter informações de uma linha de uma tabela B relacionada com uma linha de uma tabela A.
+Os joins nos permitem obter informações de uma linha de uma tabela B relacionada com uma linha de uma tabela B.
