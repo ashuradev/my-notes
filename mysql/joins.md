@@ -16,10 +16,33 @@ O inner join combina uma linha da tabela A com uma linha da tabela B se estas li
 
 O left join, ou left outer join, nos permite selecionar as linhas que satisfazem o **join predicate** e também **todas** as linhas da tabela **a esquerda**. Ou seja, as linhas da tabela **a esquerda** são sempre incluídas mesmo que não há uma correspondência a tabela a direita.
 
+```sql
+SELECT pessoas.nome as 'Nome da pessoa', cursos.nome AS 'Nome do curso'
+FROM pessoas
+LEFT JOIN cursos ON pessoas.cursopreferido_id = cursos.id_do_curso;
+```
+
+Nesta query:
+
+- A **junção** das linhas das tabelas pessoas e cursos começará **à esquerda** utilizando uma **coluna em comum** que é o *id do curso*.
+- As linhas da esquerda que não houver correspondência nas linhas da direita **serão incluídas**, ou seja, as pessoas que não preferem cursos **serão incluídas**.
+
 ### Right join
 
 O right join, ou right outer join, nos permite selecionar as linhas que satisfazem o **join predicate** e também **todas** as linhas da tabela **a direita**. Ou seja, as linhas da tabela **a direita** são sempre incluídas mesmo que não já uma correspondência a tabela a esquerda.
 
+```sql
+SELECT pessoas.nome as 'Nome da pessoa', cursos.nome AS 'Nome do curso'
+FROM pessoas
+RIGHT JOIN cursos ON pessoas.cursopreferido_id = cursos.id_do_curso;
+```
+
+Nesta query:
+
+- A **junção** das linhas das tabelas pessoas e cursos começará **à direita** utilizando uma **coluna em comum** que é o *id do curso*.
+- As linhas da direita que não houver correspondência nas linhas da esquerda **serão incluídas**, ou seja, os cursos que não são preferidos **serão** incluídos mesmo assim.
+
 # Conclusão
 
 Os joins nos permitem obter informações de uma linha de uma tabela B relacionada com uma linha de uma tabela B.
+
