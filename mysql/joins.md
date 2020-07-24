@@ -22,6 +22,16 @@ Nesta query:
 
 O inner join combina uma linha da tabela A com uma linha da tabela B se estas linhas satisfazerem uma condição chamada **join predicate**. Em outras palavras, ele relaciona uma linha da tabela A com uma linha da tabela B com base numa coluna em comum.
 
+```SQL
+SELECT pessoas.nome AS 'Nome da pessoa', cursos.nome AS 'Nome do curso preferido'
+FROM cursos
+INNER JOIN cursos ON pessoas.cursopreferido = cursos.idcurso;
+```
+
+Nesta query:
+
+- A **junção** de cada linha da tabela pessoa e da tabela curso ocorrerá quando haver uma coluna em comum entre elas.
+
 ### Left join
 
 O left join, ou left outer join, nos permite selecionar as linhas que satisfazem o **join predicate** e também **todas** as linhas da tabela **a esquerda**. Ou seja, as linhas da tabela **a esquerda** são sempre incluídas mesmo que não há uma correspondência a tabela a direita.
@@ -29,7 +39,7 @@ O left join, ou left outer join, nos permite selecionar as linhas que satisfazem
 ```sql
 SELECT pessoas.nome as 'Nome da pessoa', cursos.nome AS 'Nome do curso preferido'
 FROM pessoas
-LEFT JOIN cursos ON pessoas.cursopreferido_id = cursos.id_do_curso;
+LEFT JOIN cursos ON pessoas.cursopreferido = cursos.id_do_curso;
 ```
 
 Nesta query:
@@ -44,7 +54,7 @@ O right join, ou right outer join, nos permite selecionar as linhas que satisfaz
 ```sql
 SELECT pessoas.nome as 'Nome da pessoa', cursos.nome AS 'Nome do curso'
 FROM pessoas
-RIGHT JOIN cursos ON pessoas.cursopreferido_id = cursos.id_do_curso;
+RIGHT JOIN cursos ON pessoas.cursopreferido = cursos.idcurso;
 ```
 
 Nesta query:
