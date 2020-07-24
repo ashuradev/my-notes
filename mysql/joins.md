@@ -4,6 +4,8 @@ Os joins nos permitem combinar linhas de duas ou mais tabelas utilizando colunas
 
 ## Tipos de joins
 
+O MySQL provém os seguintes tipos de joins: Cross join, inner join, left join e right join.
+
 ### Cross join
 
 O cross join obtém uma linha da tabela A e combina com todas as linhas da tabela B e assim sucessivamente.
@@ -64,5 +66,5 @@ Nesta query:
 
 # Conclusão
 
-Os joins nos permitem obter informações de uma linha de uma tabela B relacionada com uma linha de uma tabela B.
+Os joins nos permitem obter informações de uma linha de uma tabela B relacionada com uma linha de uma tabela A.
 
