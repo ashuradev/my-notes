@@ -8,43 +8,17 @@ Os joins nos permitem unir linhas de duas ou mais tabelas utilizando colunas em 
 
 O cross join obtém uma linha da tabela A e combina com todas as linhas da tabela B e assim sucessivamente.
 
-Exemplo:
-
-```
-Tabela Usuário - (nome, email, id)  
-	- ('Lucas', 'aa@aa.com', 1)  
-	- ('Lisa', 'bb@bb.com', 2)  
-
-Tabela Post - (titulo, author_id):  
-	- ('Os Joins no MySQL', 1)  
-	- ('Os posts', 2)  
-
-Usuário CROSS JOIN Post (nome, email, id, titulo, author_id):  
-	- ('Lucas', 'aa@aa.com', 1, 'Os Joins no MySQL', 1)  
-	- ('Lucas', 'aa@aa.com', 1, 'Os posts', 2)  
-	- ('Lisa, 'bb@bb.com', 2, 'Os Joins no MySQL', 1)  
-	- ('Lisa, 'bb@bb.com', 2, 'Os posts', 2)  	
-```
-
 ### Inner join
 
 O inner join combina uma linha da tabela A com uma linha da tabela B se estas linhas satisfazerem uma condição chamada **join predicate**. Em outras palavras, ele relaciona uma linha da tabela A com uma linha da tabela B com base numa coluna em comum.
 
-Exemplo:
+### Left join
 
-```
-Tabela Usuário - (nome, email, id)  
-	- ('Lucas', 'aa@aa.com', 1)  
-	- ('Lisa', 'bb@bb.com', 2)  
+O left join, ou left outer join, nos permite selecionar as linhas que satisfazem o **join predicate** e também **todas** as linhas da tabela **a esquerda**. Ou seja, as linhas da tabela **a esquerda** são sempre incluídas mesmo que não há uma correspondência a tabela a direita.
 
-Tabela Post - (titulo, author_id):  
-	- ('Os Joins no MySQL', 1)  
-	- ('Os posts', 2)  
+### Right join
 
-Usuário INNER JOIN Post QUANDO Usuário.id = Post.author_id (nome, email, id, titulo, author_id):  
-	- ('Lucas', 'aa@aa.com', 1, 'Os joins no MySQL', 1)  
-	- ('Lisa', 'bb@bb.com', 2, 'Os posts', 2)  
-```
+O right join, ou right outer join, nos permite selecionar as linhas que satisfazem o **join predicate** e também **todas** as linhas da tabela **a direita**. Ou seja, as linhas da tabela **a direita** são sempre incluídas mesmo que não já uma correspondência a tabela a esquerda.
 
 # Conclusão
 
