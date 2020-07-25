@@ -1,6 +1,6 @@
 # Joins
 
-Os joins nos permitem unir linhas de duas ou mais tabelas utilizando colunas em comum destas tabelas ou não (no caso dos cross joins). Em outras palavras, ele nos permite **juntar** as linhas de uma tabela A com linhas de uma tabela B.
+Os joins nos permitem unir linhas de duas ou mais tabelas utilizando colunas em comum destas tabelas ou não (no caso dos cross joins). Em outras palavras, ele nos permite **associar** as linhas de uma tabela A com linhas de uma tabela B com base numa condição.
 
 ## Tipos de joins
 
@@ -67,6 +67,16 @@ Nesta query:
 ### Self join
 
 Um self join acontece quando há um join entre uma tabela e ela mesma.
+
+## Join com três tabelas ou mais
+
+Você também pode utilizar joins com três tabelas ou mais quando você precisa conectar linhas destas tabelas:
+
+```sql
+SELECT p.name AS person, c.name AS course FROM pessoa p
+INNER JOIN pessoa_assiste_curso a ON a.idperson = p.id 
+INNER JOIN cursos c ON c.id = a.idcourse;
+```
 
 # Conclusão
 
