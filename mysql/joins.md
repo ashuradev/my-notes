@@ -26,7 +26,7 @@ O inner join combina uma linha da tabela A com uma linha da tabela B se estas li
 
 ```SQL
 SELECT pessoas.nome AS 'Nome da pessoa', cursos.nome AS 'Nome do curso preferido'
-FROM cursos
+FROM pessoas
 INNER JOIN cursos ON pessoas.cursopreferido = cursos.idcurso;
 ```
 
