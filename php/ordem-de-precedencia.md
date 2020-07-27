@@ -14,7 +14,7 @@ A seguinte tabela mostra a ordem de precedência de alguns operadores no PHP (do
 |&&            |
 |\|\|          |
 
-Como podemos ver nesta tabela, o operador de *, / e % serão executados primeiro que os operadores +, -, .
+Como podemos ver nesta tabela, o operador de `*`, `/` e `%` serão executados primeiro que os operadores `+`, `-` e `.`.
 
 Para forçar a execução de uma operação, você pode utilizar os parentêses.
 
