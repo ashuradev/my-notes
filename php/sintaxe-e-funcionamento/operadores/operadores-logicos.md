@@ -4,7 +4,7 @@ Operadores lógicos retornam valores lógicos a partir de valores lógicos.
 
 ## Operador de conjunção
 
-O operador de conjunção (`&&` ou `and`) retorna `true` se todos os operandos forem `true` e `false` se algum operando for `false`.
+O operador de conjunção (`&&` ou `and`) retorna `true` se todos os operandos forem `true` caso contrário retorna `false`.
 
 ## Operador de disjunção
 
