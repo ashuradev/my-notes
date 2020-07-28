@@ -1,6 +1,6 @@
 # Operadores lógicos
 
-Operadores lógicos retornam valores lógicos a partir de condições ou expressões.
+Operadores lógicos retornam valores lógicos a partir de valores lógicos.
 
 ## Operador de conjunção
 
