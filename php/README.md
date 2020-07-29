@@ -14,3 +14,7 @@
   - [x] Operadores compostos
   - [x] Spacheship
   - [x] Operador de execucação
+- [x] Estruturas condicionais
+- [x] Estruturas de repetições
+- [ ] Funções
+	- [ ] Argumentos e referências

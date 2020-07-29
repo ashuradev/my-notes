@@ -42,7 +42,7 @@ Por trás, todo array é um array associativo.
 
 ## Variável variável
 
-Uma variável variável utiliza o valor de uma outra variável como nome:
+Uma variável variável utiliza o valor de uma outra variável como nome. É um recurso para acessar dados utilizando nomes dinâmicos:
 
 ```php
 $var = 'teste';
