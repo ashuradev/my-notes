@@ -16,5 +16,5 @@
   - [x] Operador de execucação
 - [x] Estruturas condicionais
 - [x] Estruturas de repetições
-- [ ] Funções
-	- [ ] Argumentos e referências
+- [x] Funções
+	- [x] Argumentos e referências

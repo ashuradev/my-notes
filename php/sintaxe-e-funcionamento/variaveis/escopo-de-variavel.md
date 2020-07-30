@@ -1,6 +1,6 @@
 # Escopo de variáveis
 
-O escopo de uma variável é um local que armazena as variáveis.
+O escopo de uma variável é o contexto onde a variável está, ou seja, a sua visibilidade nas partes de um programa.
 
 ## Tipo de variáveis
 
