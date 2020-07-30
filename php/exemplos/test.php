@@ -1,9 +1,5 @@
 <?php
+$nomes = ['b' => 'Ashura', 'f' => 'Diego', 'a' => 'Lisa'];
 
-echo "teste: {1 + 1}";
-
-function a() {
-	return "b";
-}
-
-echo "teste: {a()}";
+krsort($nomes);
+print_r($nomes);

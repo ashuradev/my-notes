@@ -26,7 +26,7 @@ Também chamados de números ponto flutuantes ou doubles, são números decimais
 
 É uma estrutura com um conjunto de elementos identificados por chaves.
 
-- Indexados: Array onde as chaves são números (índices).
+- Indexados: Array onde as chaves são números (índices) e já estão indexados.
 - Associativos: Array onde chaves podem ser strings, floats, inteiros, booleanos e nulos.
 - Multidimensionais: Array de arrays.
 
