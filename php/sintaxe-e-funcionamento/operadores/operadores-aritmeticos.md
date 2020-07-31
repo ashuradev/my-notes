@@ -15,10 +15,6 @@ Operadores aritméticos realizam aritmética básica no PHP. Eles podem ser:
 | Incremento    | Incrementa um número                                 | `++`    | Unário  |
 | Decremento    | Decrementa um número                                 | `--`    | Unário  |
 
-## Exemplos
+## Incremento e decremento
 
-```php
-<?php
-
-
-```
+Os operadores de incremento e decremento são operadores unários.

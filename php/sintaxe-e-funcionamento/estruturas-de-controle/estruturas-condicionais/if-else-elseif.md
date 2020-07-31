@@ -10,4 +10,4 @@ O `else if` é uma combinação do `else` e `if`, ele complementa um `if` para q
 
 É utilizado para verificar diferentes condições e então executar somente uma ação sem que um outro `if` seja executado também.
 
-Em outras palavras, ele executa um outro `if` caso o original seja avaliado para `false`.
+Em outras palavras, ele é utilizado para se ter uma outra decisão caso a original seja falsa.
