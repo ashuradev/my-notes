@@ -18,12 +18,13 @@
             let meuArray: Array<number> = [1, 2, 3];
         ```
 - Tuplas
-    - Um tipo que representa um array com um número de elementos **fixo** e com tipos conhecidos: ```ts
+    - Um tipo que representa um array com um número de elementos **fixo** e com tipos conhecidos: 
+    ```ts
         let meuArray: [number, string] = [10, "Olá"];
     ```
 - Enum
     - Nos permite dá nomes mais amigáveis a um conjunto de valores (números, strings, etc).
-    - ```ts
+    ```ts
         enum MemberType {
             ADMIN,
             MOD,
@@ -32,7 +33,8 @@
         // Acessando:
         MemberType.ADMIN;
     ```
-    - Você pode alterar o valor dos membros: ```ts
+    - Você pode alterar o valor dos membros: 
+    ```ts
         enum MemberType {
             ADMIN = 1,
             MOD, // Agora é 2
