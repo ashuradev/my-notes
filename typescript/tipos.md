@@ -27,7 +27,6 @@
             MOD,
             NORMAL
         }
-
         // Acessando:
         MemberType.ADMIN;
     ```
