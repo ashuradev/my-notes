@@ -45,7 +45,6 @@
             MOD, // Agora é 2
             NORMAL // Agora é 3
         }
-
         MemberType[1]; // --> 'Mod'
     ```
 - Unknown
