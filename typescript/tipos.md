@@ -9,7 +9,7 @@
 - Array
     - Um conjunto de elementos identificados por um índice.
     - Você pode especificar o tipo Array em uma variável de dois modos:
-        - Informando o tipo seguido por colchetes: ```s
+        - Informando o tipo seguido por colchetes: ```ts
             let meuArray: number[] = [1, 2, 3];
         ```
         - Utilizando *generics*: ```ts
