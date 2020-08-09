@@ -42,7 +42,8 @@
         }
     ```
 
-    - Acessando os nomes dos membros pelo seu valor: ```ts
+    - Acessando os nomes dos membros pelo seu valor: 
+    ```ts
         enum MemberType {
             ADMIN = 1,
             MOD, // Agora é 2
@@ -56,9 +57,8 @@
 - Any
     - Representa qualquer valor
     - Exclui a verificação de tipo
-    - ```ts
+    ```ts
         let variavel: any = 10;
-
         variavel.toFixed(); // ????????????????????
     ```
 
