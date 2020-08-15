@@ -1,6 +1,9 @@
-enum MemberType {
-  ADMIN = 1,
-  MOD
+interface Foo {
+  constructor(str: string);
 }
 
-console.log(MemberType);
+class Bar implements Foo {
+  constructor(str: string) {
+
+  }
+}
