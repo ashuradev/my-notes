@@ -18,3 +18,27 @@
 - [x] Estruturas de repetições
 - [x] Funções
 	- [x] Argumentos e referências
+- [ ] Programação orientada a objetos
+    - [ ] O básico
+    - [ ] Propriedades
+    - [ ] Constantes do Objeto
+    - [ ] Autoloading classes
+    - [ ] Construtores e destrutores
+    - [ ] Visibilidade
+    - [ ] Herança de objetos
+    - [ ] Operador de resolução de escopo
+    - [ ] Palavra chave 'static' 
+    - [ ] Abstração de classes
+    - [ ] Interfaces de objetos
+    - [ ] Traits
+    - [ ] Classes anônimas
+    - [ ] Sobrecarga
+    - [ ] Iteração de objetos
+    - [ ] Métodos mágicos
+    - [ ] final
+    - [ ] Clonando objetos
+    - [ ] Comparando objetos
+    - [ ] Type hinting
+    - [ ] Late Static Bindings
+    - [ ] Objetos e referências
+    - [ ] Serialização de objetos - objetos em sessão
