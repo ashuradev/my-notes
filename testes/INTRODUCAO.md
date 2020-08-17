@@ -1,20 +1,25 @@
 # Introdução
 
-- Teste: Contrato com nosso código.
-- Teste de integração: Testam a combinação de features.
-- TDD é uma abordagem de se criar softwares:
-    - Vermelho: Crie um teste e verifique se falha.
-    - Verde: Escreva um código simples e fácil que faça o teste passar.
-    - Refatorar: Otimize, simplifique e refatore o código, mantendo o teste passando.
-    - Começe o ciclo novamente na etapa 1.
-    - Todavia, pense primeiro antes de todo ciclo: pense no seu objetivo e como estruturá seu código.
-- BDD:
-    - Variação do TDD onde os testes são escritos na forma:
-    - Describe <algo> (descreva). It should (faça alguma coisa).
-    - <algo> pode ser um módulo, função, método ou classe.
+- Testar é o processo de garantiar que o nosso programa produza *outputs* e *side-effects* corretos para *inputs*.
 
-https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
-https://blog.risingstack.com/node-hero-node-js-unit-testing-tutorial/
-https://medium.com/@ashish_fagna/testing-nodejs-app-using-mocha-and-chai-ce76a077f947
+- *Afirmamos* o que nosso código deve fazer em *especificações*.
 
-Agosto: TypeScript, TDD e POO
+- Teste automatizado é um código que testa um outro código.
+
+- Teste de unidade testa os menores pedaços de código, ou unidades. As unidades nós que definimos, mas normalmente é uma parte pequena programa que pode funcionar isoladamente. Aqui nós testa nossas unidades sem recursos externos como um banco de dados. Aqui nós testa uma coisa somente ao mesmo tempo. Testam funcionalides especificias.
+
+- Testes de unidade devem no mínimo cobrir a maior parte das situações de uma unidade.
+
+- Testes de integração testam o comportamento da interação entre componentes de um sistema. Testam funcionalidades completas, como rotas até um controller, passando por várias camadas e arquivos da aplicação.
+
+- No TDD a lógica de teste *precede* a lógica do programa.
+
+- Teste de integração testa internamente várias funções. Ele deve testar a interação entre duas ou mais unidades.
+
+- Mocking é o ato de falsificar algum elemento externo à aplicação, como se nunca falhasse. Por ex., modificar uma função que retorna dados do DB para que sempre retorne um valor constante, para que nós não acessamos o banco de dados em si.
+
+## Jest
+
+- O primeiro parâmetro da função test é o título ou descrição e o segundo parâmetro é uma função em que afirmamos algo.
+
+- O describe nos permite dividir os testes em seções.   
