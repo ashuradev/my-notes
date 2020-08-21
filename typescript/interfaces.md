@@ -142,7 +142,7 @@ class ArticleReader implements Reader {
 
 - Você **NÃO** pode ter métodos privados nas interfaces.
 
-- O TS somente verifica o lado da instância de uma classe quando você implementa uma interface:
+- O TS **somente** verifica o lado da instância de uma classe quando você implementa uma interface:
 
 ```ts
 interface Foo {
