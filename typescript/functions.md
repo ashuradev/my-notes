@@ -86,7 +86,28 @@ function hello(...names: string[]) {}
 - Define o tipo do `this` de uma função:
 
 ```ts
-function test(this: void) {
-    // sem this
+const foo = {
+    bar: 1,
+    baz: function () {
+
+    }
+};
+```
+
+- O `this` de uma *function expression* é sempre *any*, pois o `this` será definido **quando** a função for chamada.
+
+## Sobrecargas
+
+- São vários tipos de funções para uma função em específica:
+
+```ts
+function foo(x: number[]): number[];
+function foo(x: number): number;
+function foo(x: any): any {
+    return x;
 }
 ```
+
+- Ao chamar uma função, o verificador de tipo para verificar qual sobrecarga é a correta, escolhe a primeira sobrecarga e então tenta passar os argumentos fornecidos para ela e se esta sobrecarga não aceitar, o verificador de tipo irá verificar as próximas sobrecargas.
+
+- Por isso, é importante que você ordene a lista de sobrecargas para a mais específica para a menos específica.
