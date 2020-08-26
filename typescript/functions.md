@@ -108,6 +108,10 @@ function foo(x: any): any {
 }
 ```
 
-- Ao chamar uma função, o verificador de tipo para verificar qual sobrecarga é a correta, escolhe a primeira sobrecarga e então tenta passar os argumentos fornecidos para ela e se esta sobrecarga não aceitar, o verificador de tipo irá verificar as próximas sobrecargas.
+- Ao chamar uma função, o verificador de tipo para verificar qual sobrecarga é a
+correta, escolhe a primeira sobrecarga e então tenta passar os argumentos 
+fornecidos para ela e se esta sobrecarga não aceitar, o verificador de tipo irá 
+verificar as próximas sobrecargas.
 
-- Por isso, é importante que você ordene a lista de sobrecargas para a mais específica para a menos específica.
+- Por isso, é importante que você ordene a lista de sobrecargas para a mais 
+específica para a menos específica.
