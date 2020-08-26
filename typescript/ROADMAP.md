@@ -1,10 +1,10 @@
 # Roadmap
 
 - [x] Tipos básicos
-- [ ] Interfaces
-- [ ] Functions
-- [ ] Literal types
-- [ ] Tipos união e intersecção
-- [ ] Classes
-- [ ] Enums
-- [ ] Generics
+- [x] Interfaces
+- [x] Functions
+- [x] Literal types
+- [ ] Tipos união e intersecção (26/08)
+- [ ] Classes (27/08)
+- [ ] Enums (28/08)
+- [ ] Generics (29/08)
