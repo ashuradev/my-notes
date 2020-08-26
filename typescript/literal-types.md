@@ -3,7 +3,7 @@
 É um *sub-tipo mais concreto* de um tipo coletivo (string, número, booleano) que diz exatamente qual o valor uma string, booleano ou número precisa ter.
 
 ```ts
-// hello tem o tipo "eae"
+// effectType tem o tipo "eae"
 const effectType = "eae";
 ```
 
